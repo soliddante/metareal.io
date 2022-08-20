@@ -18,7 +18,10 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
+            'avatar'=>'http://localhost:8000/img/avatar/A1592.png',
             'name' => fake()->name(),
+            'username' => fake()->name(),
+            'coordinate' =>json_encode([51.41320399940014, 35.70189957913802]),
             'email' => fake()->safeEmail(),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password

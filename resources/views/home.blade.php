@@ -40,7 +40,7 @@
 
     {{-- scripts --}}
     <x-configs.web3connection />
-    <script>
+    {{-- <script>
         var userwallet = null;
         ethereum.on('accountsChanged', (accounts) => {
             // window.location.reload();
@@ -78,5 +78,5 @@
                     }
                 })
         }
-    </script>
+    </script> --}}
 </x-app-layout>

@@ -3,7 +3,7 @@
     map.on("load", () => {
         @foreach ($lands as $land)
             map.setFeatureState({
-                source: "states",
+                source: "rookesh_json_source",
                 id: "{{ $land->geo_id }}"
             }, {
                 @if ($land->user_id == auth()->user()->id)

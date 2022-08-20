@@ -1,0 +1,47 @@
+[
+    {
+        "type": "Directory",
+        "name": "d:\\MEGA\\00_PROJECTS\\Game\\app\\Http\\Controllers",
+        "parent_id": null,
+        "fsPath": "d:\\MEGA\\00_PROJECTS\\Game\\app\\Http\\Controllers",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "p2VoO8AuXcq491bl"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\MEGA\\00_PROJECTS\\Game\\database\\migrations",
+        "parent_id": null,
+        "fsPath": "d:\\MEGA\\00_PROJECTS\\Game\\database\\migrations",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "BCoPpH5Xz8AwhNV1"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\MEGA\\00_PROJECTS\\Game\\database\\seeders",
+        "parent_id": null,
+        "fsPath": "d:\\MEGA\\00_PROJECTS\\Game\\database\\seeders",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "y3QfS69lJtL2mGNX"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\MEGA\\00_PROJECTS\\Game\\resources\\views",
+        "parent_id": null,
+        "fsPath": "d:\\MEGA\\00_PROJECTS\\Game\\resources\\views",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "PAc9Kxgp3MEBCjU7"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\MEGA\\00_PROJECTS\\Game\\app\\Models",
+        "parent_id": null,
+        "fsPath": "d:\\MEGA\\00_PROJECTS\\Game\\app\\Models",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "QFDNAob1l7jenZXO"
+    }
+]

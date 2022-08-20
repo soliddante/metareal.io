@@ -24,8 +24,10 @@
             src: url("/font/Futura Regular font.woff2");
         }
     </style> --}}
+
     <style>
-        @font-face {
+        
+@font-face {
             font-family: ProductSans;
             font-weight: 400;
             src: url("/font/Product Sans Regular.woff2");
@@ -73,7 +75,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="antialiased">
+<body class="antialiased ">
 
     <x-alert />
     <main>

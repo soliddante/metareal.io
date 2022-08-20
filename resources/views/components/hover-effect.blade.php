@@ -1,9 +1,9 @@
 <script>
-    map.on("mousemove", "state-fills", (e) => {
+    map.on("mousemove", "rookesh_layer", (e) => {
         if (e.features.length > 0) {
             if (hoveredStateId !== null) {
                 map.setFeatureState({
-                    source: "states",
+                    source: "rookesh_json_source",
                     id: hoveredStateId
                 }, {
                     hover: false
@@ -11,17 +11,17 @@
             }
             hoveredStateId = e.features[0].id;
             map.setFeatureState({
-                source: "states",
+                source: "rookesh_json_source",
                 id: hoveredStateId
             }, {
                 hover: true
             });
         }
     });
-    map.on("mouseleave", "state-fills", () => {
+    map.on("mouseleave", "rookesh_layer", () => {
         if (hoveredStateId !== null) {
             map.setFeatureState({
-                source: "states",
+                source: "rookesh_json_source",
                 id: hoveredStateId
             }, {
                 hover: false
